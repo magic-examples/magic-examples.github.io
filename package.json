@@ -1,0 +1,53 @@
+{
+  "name": "magic-examples.github.io",
+  "version": "0.0.1",
+  "private": true,
+  "author": "Wizards & Witches",
+  "description": "@magic-examples org github page.",
+  "license": "AGPL-3.0",
+  "homepage": "https://magic-examples.github.io",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "scripts": {
+    "start": "t -p",
+    "build": "NODE_ENV=production magic build",
+    "prod": "NODE_ENV=production magic build serve --watch src",
+    "clean": "magic clean",
+    "serve": "magic serve --watch src",
+    "dev": "magic dev --watch src",
+    "format": "f -w --exclude docs",
+    "test": "t --exclude docs example config.js",
+    "calls": "calls",
+    "connect": "magic connect",
+    "publish": "magic publish"
+  },
+  "dependencies": {
+    "@magic-modules/about-magic": "0.0.3",
+    "@magic-modules/example-list": "0.0.1",
+    "@magic-modules/gdpr": "0.0.14",
+    "@magic-modules/git-badges": "0.0.7",
+    "@magic-modules/light-switch": "0.0.5",
+    "@magic-modules/pre": "0.0.6",
+    "@magic-modules/theme-list": "0.0.7",
+    "@magic-themes/project": "0.0.13",
+    "@magic/core": "0.0.58"
+  },
+  "devDependencies": {
+    "@magic/format": "0.0.7",
+    "@magic/test": "0.1.37"
+  },
+  "keywords": [
+    "magic",
+    "static",
+    "serverless",
+    "page",
+    "generator"
+  ],
+  "contributors": [
+    {
+      "name": "jascha ehrenreich",
+      "github": "jaeh"
+    }
+  ]
+}
