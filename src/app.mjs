@@ -1,19 +1,19 @@
 export const state = {
   title: '@magic-examples',
-  description: '@magic is a jamstack generator. this is the @magic-examples directory, containing example pages.',
+  description: [
+    '@magic is a jamstack generator.',
+    'this is the @magic-examples directory, containing example pages.',
+  ],
 
   branding: ['@magic', '-examples'],
 
-  menu: [
-    { to: '/#gl-magic-examples', text: 'examples' },
-  ],
+  menu: [{ to: '/#gl-magic-examples', text: 'examples' }],
 
   hero: {
     title: '@magic',
     description: 'examples directory',
     content: 'small example projects that help getting started quickly.',
   },
-
 
   footer: {
     one: {
