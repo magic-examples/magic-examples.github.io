@@ -7,6 +7,21 @@ export const state = {
 
   branding: ['@magic', '-examples'],
 
+  seo: {
+    name: '@magic-examples',
+    url: `https://magic-examples.github.io/`,
+    about:
+      'magic is a jamstack generator. this page shows some examples that help getting started.',
+    image: `https://magic-examples.github.io/magic-preview.jpg`,
+    author: {
+      '@type': 'person',
+      name: 'Jascha Ehrenreich',
+      jobTitle: 'Technomancer',
+      image: 'https:/jaeh.at/img/jascha.ehrenreich.jpg',
+      url: 'https://jaeh.at',
+    },
+  },
+
   menu: [{ to: '/#gl-magic-examples', text: 'examples' }],
 
   hero: {
