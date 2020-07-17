@@ -12,7 +12,7 @@ export const state = {
     url: `https://magic-examples.github.io/`,
     about:
       'magic is a jamstack generator. this page shows some examples that help getting started.',
-    image: `https://magic-examples.github.io/magic-preview.jpg`,
+    image: `https://magic-examples.github.io/magic-examples-preview.jpg`,
     author: {
       '@type': 'person',
       name: 'Jascha Ehrenreich',
